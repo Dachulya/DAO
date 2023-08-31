@@ -25,6 +25,7 @@ public class EmployeeDaoImpl implements EmployeeDAO{
                 Integer age=resultSet.getInt("age");
                 Integer town=resultSet.getInt("town");
 
+
                 Employee.add(new Employee(first_name,last_name,gender,age,town));
 
         }

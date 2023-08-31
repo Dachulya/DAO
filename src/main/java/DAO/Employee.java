@@ -7,6 +7,7 @@ public class Employee {
     private Integer age;
     private Integer town;
 
+
     public Employee(String first_name,
                     String last_name, String gender,
                     Integer age, Integer town) {
